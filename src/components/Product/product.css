@@ -1,0 +1,48 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.card-img {
+  position: relative;
+}
+.card-img img {
+  width: 100%;
+}
+@media only screen and (max-width: 570px) {
+  .card-img img {
+    width: 100%;
+  }
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 350px;
+    margin: 0 auto;
+  }
+}
+.card-title {
+  padding: 10px;
+  line-height: 15px;
+}
+.card-footerr button {
+  width: 100%;
+  padding:0;
+  cursor: pointer;
+  border: none;
+  background-color: orange;
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.card-footerr p{
+  margin-top: 15px;
+}
+
+strong {
+  color: orange;
+}
+.card-footer :hover {
+  background-color: rgb(255, 115, 0);
+}

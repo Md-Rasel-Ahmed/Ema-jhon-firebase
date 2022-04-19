@@ -1,0 +1,42 @@
+nav {
+  /* background-color: rgb(20, 20, 20); */
+  color: #fff;
+  display: flex;
+  padding: 4px 20px;
+  height:80px;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  gap: 3px;
+}
+.link{
+  color:#fff;
+}
+ul li {
+  list-style: none;
+  color: #fff;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+.loginUser{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.account{
+  position:absolute;
+  height:200px;
+  width:200px;
+  border:1px solid #ddd;
+  right:0px;
+  top: 85px;
+  background-color:black;
+  z-index: 124;
+  padding:10px;
+  border-radius: 10px;
+}

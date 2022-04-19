@@ -1,0 +1,43 @@
+.googleBtn{
+    background-color:#4285F4 !important;
+    display: flex ;
+    justify-content: center ;
+    gap: 50px;
+    margin-left: 10px;
+    width:96%;
+}
+.loging-form{
+border: 1px solid black !important;
+width: 400px !important;
+margin:0 auto;
+border-radius: 5px;
+padding:10px 0!important;
+}
+.loginBtn{
+    background-color:orange;
+    border:none;
+    padding:10px;
+    border-radius: 5px;
+    color: #fff;
+    /* cursor: pointer; */
+    width:95%;
+}
+form{
+    border:none;
+}
+input{
+    width:90%;
+}
+.or{
+    width:230px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+}
+.firstLine,.secondLine{
+    display:block;
+    margin:4px;
+    width:100px;
+    height: 3px;
+   background: black;
+}

@@ -1,0 +1,29 @@
+.orderBtn button {
+  display: block;
+  padding: 10px 0px;
+  width: 95%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+button:first-child {
+  background-color: rgb(255, 51, 0);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+button:last-child {
+  background-color: orange;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+table {
+  width: 300px;
+}
+input {
+  width: 35px;
+}
